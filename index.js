@@ -60,44 +60,53 @@ inquirer
         axios.get(queryUrl).then(function(res) {
             profilePicture = res.data.avatar_url;
             email = res.data.email;
-            console.log(profilePicture);
-            console.log(email);
+            // console.log(profilePicture);
+            // console.log(email);
 
             const readmeString = `# ${projectTitle}
 
-            ${projectDescription}
             
-            ## Installation Instructions
-            
-            ${installationInstructions}
-            
-            ## Usage
-            
-            ${usageDetails}
-            
-            ## License
-            
-            ${licenseDetails}
-            
-            ## Contribution
-            
-            ${contributionInstructions}
-            
-            ## Testing
-            
-            ${testInstructions}
-            
-            ## FAQs
-            
-            ${faqs}
-            
-            ## Contact
-            
-            [${email}](mailto:${email})
-            
-            ![Profile Picture](${profilePicture} "Profile Picture")`;
+![Downloads badge](https://img.shields.io/static/v1?label=Downloads&message=1,000,000&color=blue "Downloads Badge")
 
-            // console.log(readmeString);
+${projectDescription}
+
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Test](#Test)
+- [Questions](#FAQs)
+            
+## Installation
+
+${installationInstructions}
+
+## Usage
+
+${usageDetails}
+
+## License
+
+${licenseDetails}
+
+## Contributing
+
+${contributionInstructions}
+
+## Test
+
+${testInstructions}
+
+## FAQs
+
+${faqs}
+
+## Contact
+
+[${email}](mailto:${email})
+
+![Profile Picture](${profilePicture} "Profile Picture")`;
 
             fs.writeFile("README-new.md", readmeString, function(err) {
                 if (err) {

@@ -1,33 +1,44 @@
-# zoo.io
+# README Generator
 
-            Learn about amazing animals.
             
-            ## Installation Instructions
+![Downloads badge](https://img.shields.io/static/v1?label=Downloads&message=1,000,000&color=blue "Downloads Badge")
+
+CLI readme generator
+
+## Table of Contents
+- [Installation](#Installation)
+- [Usage](#Usage)
+- [License](#License)
+- [Contributing](#Contributing)
+- [Test](#Test)
+- [Questions](#FAQs)
             
-            npm install zoo
-            
-            ## Usage
-            
-            Copy whatever you want!
-            
-            ## License
-            
-            MIT
-            
-            ## Contribution
-            
-            Clone and submit a pull request!
-            
-            ## Testing
-            
-            Ummm...
-            
-            ## FAQs
-            
-            Is it good? Yes, it's very good.
-            
-            ## Contact
-            
-            [null](mailto:null)
-            
-            ![Profile Picture](https://avatars0.githubusercontent.com/u/8892386?v=4 "Profile Picture")
+## Installation
+
+npm install
+
+## Usage
+
+Free to use
+
+## License
+
+MIT
+
+## Contributing
+
+Submit pull request
+
+## Test
+
+...
+
+## FAQs
+
+...
+
+## Contact
+
+[null](mailto:null)
+
+![Profile Picture](https://avatars0.githubusercontent.com/u/8892386?v=4 "Profile Picture")
