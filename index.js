@@ -64,8 +64,7 @@ inquirer
             // console.log(email);
 
             const readmeString = `# ${projectTitle}
-
-            
+    
 ![Downloads badge](https://img.shields.io/static/v1?label=Downloads&message=1,000,000&color=blue "Downloads Badge")
 
 ${projectDescription}
@@ -106,7 +105,7 @@ ${faqs}
 
 [${email}](mailto:${email})
 
-![Profile Picture](${profilePicture} "Profile Picture")`;
+![Profile Picture](${profilePicture} =250x)`;
 
             fs.writeFile("README-new.md", readmeString, function(err) {
                 if (err) {

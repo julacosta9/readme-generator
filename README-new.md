@@ -41,4 +41,4 @@ Submit pull request
 
 [null](mailto:null)
 
-![Profile Picture](https://avatars0.githubusercontent.com/u/8892386?v=4 "Profile Picture")
+![Profile Picture](https://avatars0.githubusercontent.com/u/8892386?v=4 =250x)
